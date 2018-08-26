@@ -54,11 +54,13 @@ header nav {
   }
 
 .content {
+
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
 }
+
 .column {
   display: flex;
   flex-direction: column;
@@ -67,10 +69,95 @@ header nav {
 .column.large {
   width: 630px;
 }
+.lead-story .image-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+  display; flex;
+  flex-direction: column;
+  height: 450px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.image-content span {
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+ 	color: white;
+}
+
+.fall-content {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  width: 630px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 30px;
+  display; flex;
+  flex-direction: column;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.fall-content span{
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+ 	color: white;
+}
+.camera-content{
+ background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+ width: 630px;
+ margin-top: 0;
+ text-align: center;
+ font-size: 30px;
+ display; flex;
+ flex-direction: column;
+ height: 300px; 
+ margin-top: 15px;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+ text-align: center;
+}
+.camera-content span{
+	font-family: Georgia;
+  	font-weight: bold;
+  	font-size: 30px;
+  	text-align: center;
+ 	color: white;
+}
+
 .column.medium {
   width: 300px;
 }
-
+.cats-content span{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.cats-content{
+  width: 300px;
+  margin-top: 0;
+  text-align: left;
+  font-size: 40px;
+   display; flex;
+  flex-direction: column;
+  height: 150px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
 .column.small {
   width: 240px;
 }
