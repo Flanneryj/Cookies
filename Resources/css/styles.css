@@ -75,14 +75,7 @@ header nav {
   margin-top: 0;
   text-align: left;
   font-size: 40px;
-  display; flex;
-  flex-direction: column;
-  height: 450px;
-  margin-top: 15px;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
+ 
 }
 .image-content span {
 	font-family: Georgia;
@@ -97,15 +90,8 @@ header nav {
   margin-top: 0;
   text-align: left;
   font-size: 30px;
-  display; flex;
-  flex-direction: column;
-  height: 300px;
-  margin-top: 15px;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
 }
+
 .fall-content span{
 	font-family: Georgia;
   	font-weight: bold;
@@ -118,14 +104,7 @@ header nav {
  margin-top: 0;
  text-align: center;
  font-size: 30px;
- display; flex;
- flex-direction: column;
- height: 300px; 
- margin-top: 15px;
- font-weight: bold;
- font-size: 30px;
- color: white;
- text-align: center;
+ 
 }
 .camera-content span{
 	font-family: Georgia;
@@ -149,14 +128,7 @@ header nav {
   margin-top: 0;
   text-align: left;
   font-size: 40px;
-   display; flex;
-  flex-direction: column;
-  height: 150px;
-  margin-top: 15px;
-  font-weight: bold;
-  font-size: 30px;
-  color: white;
-  text-align: center;
+  
 }
 .column.small {
   width: 240px;
