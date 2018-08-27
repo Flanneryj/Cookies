@@ -57,7 +57,7 @@ header nav {
 
   display: flex;
   width: 1232px;
-  margin: 0 auto 78px auto;
+  margin-right: 32px;
   padding-top: 116px;
 }
 
@@ -75,7 +75,15 @@ header nav {
   margin-top: 0;
   text-align: left;
   font-size: 40px;
- 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: left;
 }
 .image-content span {
 	font-family: Georgia;
@@ -87,11 +95,8 @@ header nav {
 .fall-content {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
   width: 630px;
-  margin-top: 0;
-  text-align: left;
-  font-size: 30px;
-}
-
+  height: 300px;
+  }
 .fall-content span{
 	font-family: Georgia;
   	font-weight: bold;
@@ -101,10 +106,8 @@ header nav {
 .camera-content{
  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
  width: 630px;
- margin-top: 0;
- text-align: center;
- font-size: 30px;
- display: flex;
+ height: 300px;
+ 
 }
 .camera-content span{
 	font-family: Georgia;
